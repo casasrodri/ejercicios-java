@@ -98,6 +98,7 @@ public class Programa {
 					}
 				}
 				
+				System.out.print(" Opción > ");
 				cliente = teclado.nextInt(); //Usuario ingresa valor real de la posición del array. Pend handle exceptions
 				teclado.nextLine();
 				
@@ -115,6 +116,7 @@ public class Programa {
 					}
 				}
 				
+				System.out.print(" Opción > ");
 				auto = teclado.nextInt(); //Usuario ingresa valor real de la posición del array. Pend handle exceptions
 				teclado.nextLine();
 				
@@ -140,6 +142,7 @@ public class Programa {
 					
 				}
 				
+				System.out.print(" Opción > ");
 				cliente = teclado.nextInt(); //Usuario ingresa valor real de la posición del array. Pend handle exceptions
 				teclado.nextLine();
 				
@@ -162,6 +165,7 @@ public class Programa {
 					
 				}
 				
+				System.out.print(" Opción > ");
 				auto = teclado.nextInt(); //Usuario ingresa valor real de la posición del array. Pend handle exceptions
 				teclado.nextLine();
 				

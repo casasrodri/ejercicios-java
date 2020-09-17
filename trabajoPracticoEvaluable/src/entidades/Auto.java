@@ -1,4 +1,4 @@
-package trabajoPracticoEvaluable;
+package entidades;
 
 public class Auto extends Vehiculo{
 	
@@ -31,3 +31,4 @@ public class Auto extends Vehiculo{
 	}
 
 }
+

@@ -1,4 +1,4 @@
-package trabajoPracticoEvaluable;
+package entidades;
 
 public abstract class Vehiculo {
 

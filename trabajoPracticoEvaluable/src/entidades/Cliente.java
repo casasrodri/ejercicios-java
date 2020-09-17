@@ -1,4 +1,4 @@
-package trabajoPracticoEvaluable;
+package entidades;
 
 public class Cliente {
 

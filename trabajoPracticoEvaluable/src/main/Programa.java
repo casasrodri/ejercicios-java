@@ -1,7 +1,8 @@
-package trabajoPracticoEvaluable;
+package main;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import entidades.*;
 
 public class Programa {
 	
@@ -333,6 +334,3 @@ public class Programa {
 	}
 
 }
-	
-
-	

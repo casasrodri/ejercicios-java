@@ -1,4 +1,5 @@
 import BST.BinaryTree;
+import BST.Node;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,24 +19,18 @@ public class Programa {
         for (int i = 0; i < LOTES_SIMULADOS; i++) {
             Lote lote = new Lote(i+1);
             lotesRecibidos.add(lote);
+
+            bst.insert((int) lote.getPorcentajeRechazo()*100);
         }
         
         //Muestro lotes
         for (Object l: lotesRecibidos){
             ((Lote) l).evaluarRendimiento();
-            bst.insert(61);
             //System.out.println(l.toString());
         }
 
         Proveedor prov = new Proveedor(2);
         System.out.println(prov.toString());
-
-
-
-
-
-
-
 
 
         bst.inOrden(bst.root);
@@ -45,7 +40,7 @@ public class Programa {
 
 
 
-    public static void mostrarOrdenados(){
+    public static void mostrarOrdenados(List lotesRecibidos){
         //Ordeno datos
         Collections.sort(lotesRecibidos, new Comparator<Lote>() {
             @Override

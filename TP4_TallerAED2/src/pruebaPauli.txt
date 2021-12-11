@@ -1,2 +1,0 @@
-const PAULI
-const Rodri

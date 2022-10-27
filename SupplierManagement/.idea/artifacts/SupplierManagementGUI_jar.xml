@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SupplierManagementGUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SupplierManagementGUI_jar</output-path>
+    <root id="archive" name="SupplierManagement.jar">
+      <element id="module-output" name="SupplierManagement" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/sqlite-jdbc-3.8.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
